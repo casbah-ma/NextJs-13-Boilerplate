@@ -39,3 +39,8 @@ next-env.d.ts
 
 # contentlayer
 .contentlayer
+
+.swc
+
+# tests
+/coverage
