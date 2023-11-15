@@ -1,0 +1,6 @@
+.yarn
+.next
+.swc
+dist
+node_modules
+.contentLayer
