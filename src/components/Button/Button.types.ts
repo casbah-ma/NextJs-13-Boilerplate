@@ -1,11 +1,11 @@
-import {  ReactNode } from "react";
+import { ReactNode } from 'react';
 
 export interface ButtonProps {
-   /**
+  /**
    * Button contents
    */
   children: ReactNode;
- 
+
   /**
    * Button disabled
    */
@@ -14,14 +14,14 @@ export interface ButtonProps {
    * What text color to use
    */
   textColor?: string;
-   /**
+  /**
    * What background color to use
    */
   backgroundColor?: string;
-    /**
+  /**
    * Optional click handler
    */
-    onClick?: () => void;
+  onClick?: () => void;
 }
 
 // styles props

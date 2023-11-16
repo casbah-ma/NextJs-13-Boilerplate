@@ -1,5 +1,5 @@
-import { ButtonWrapper } from "./Button.styles";
-import { ButtonProps } from "./Button.types";
+import { ButtonWrapper } from './Button.styles';
+import { ButtonProps } from './Button.types';
 
 const MyButton = ({
   children,
