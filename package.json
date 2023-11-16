@@ -12,7 +12,7 @@
     "export": "next build && next start",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts|tsx|js|jsx' --write",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md}\" --config ./.prettierrc",
     "lint": "next lint",
     "test": "jest",
     "test-watch": "jest --watch",

@@ -13,8 +13,7 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
 
 const PostLayout = ({ params }: { params: { slug: string } }) => {
   const post = allPosts.find(
-    (post) => 
-    post._raw.flattenedPath === `posts/${params.slug}`
+    (post) => post._raw.flattenedPath === `posts/${params.slug}`
   );
 
   return (
