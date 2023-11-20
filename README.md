@@ -14,7 +14,7 @@
 Start your project with this template.
 
 ```bash
-yarn create next-app -e https://github.com/casbah-ma/NextJs-13-Boilerplate.git
+yarn create next-app -e https://github.com/casbah-ma/NextJs-13-Boilerplate
 ```
 
 ### How to run
