@@ -1,13 +1,13 @@
-<!-- <h1 align="center">
+
+
+
+# NextJs-13 Starter Boilerplate
+<h1 align="center">
+  <a><img src="public/assets/nextjs-starter-banner-casbah.png" alt="banner" width="100%"></a>
   <br>
-  <a><img src="" alt="logo" width="100%"></a>
-  <br>
-</h1> -->
+</h1>
 
-
-# NextJs-13-Boilerplate
-
-🚀🎉📚 Boilerplate and Starter for Next.js 13+ with App Router and Page Router support, Tailwind CSS 3.3 and TypeScript ⚡️ Made with developer experience first: Next.js + TypeScript + ESLint + Storybook + PostCSS + Tailwind CSS + ContentLayer
+🚀🎉📚 Boilerplate and Starter for Next.js 13+ with App Router and Page Router support, Tailwind CSS 3.3 and TypeScript ⚡️ Made with developer experience first: Next.js + TypeScript + ESLint + Storybook + PostCSS + Tailwind CSS + ContentLayer + i18next
 
 ## Getting Started
 
@@ -45,11 +45,12 @@ src
     |-- api
         |-- hello
             |-- route.ts
-        |-- posts
-            |-- [slug]
-                |-- page.tsx
-        |-- layout.tsx
-        |-- page.tsx
+        |-- [locale]  
+            |-- posts
+                |-- [slug]
+                    |-- page.tsx
+            |-- layout.tsx
+            |-- page.tsx
 |-- components
 |-- configs
 |-- helpers

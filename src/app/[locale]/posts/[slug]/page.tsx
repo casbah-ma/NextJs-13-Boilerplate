@@ -1,4 +1,5 @@
 // app/posts/[slug]/page.tsx
+import React from "react"
 import { format, parseISO } from 'date-fns';
 import { allPosts } from 'contentlayer/generated';
 
