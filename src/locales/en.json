@@ -1,0 +1,4 @@
+{
+    "title": "Contentlayer Example!",
+    "switchLocale": "Switch to {locale, select, fr {french} en {English} other {Unknown}}"
+}

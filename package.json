@@ -37,6 +37,7 @@
     "locomotive-scroll": "^4.1.4",
     "next": "^13.4.10",
     "next-contentlayer": "^0.3.4",
+    "next-intl": "^3.1.2",
     "parallax-js": "^3.1.0",
     "postcss": "^8.4.31",
     "react": "18.2.0",
