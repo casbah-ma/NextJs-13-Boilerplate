@@ -2767,13 +2767,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/font@npm:^13.4.19":
-  version: 13.5.6
-  resolution: "@next/font@npm:13.5.6"
-  checksum: feb95f979ffeaaa02ba523f7c5747f3cd3d7280234384df8819785e40fcf8fe2e0f2d51d07e98e1b0b97b2bc4d462732ad0175ca83ca9b71da772e5f39726b27
-  languageName: node
-  linkType: hard
-
 "@next/swc-darwin-arm64@npm:13.5.6":
   version: 13.5.6
   resolution: "@next/swc-darwin-arm64@npm:13.5.6"
@@ -15536,7 +15529,6 @@ __metadata:
     "@emotion/babel-plugin": "npm:^11.11.0"
     "@emotion/react": "npm:^11.11.1"
     "@emotion/styled": "npm:^11.11.0"
-    "@next/font": "npm:^13.4.19"
     "@storybook/addon-essentials": "npm:^7.5.3"
     "@storybook/addon-interactions": "npm:^7.5.3"
     "@storybook/addon-links": "npm:^7.5.3"

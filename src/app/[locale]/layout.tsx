@@ -1,3 +1,4 @@
+import React from "react"
 import type { Metadata } from 'next';
 import { useLocale } from 'next-intl';
 import GlobalStyles from '@/styles/GlobalStyles';

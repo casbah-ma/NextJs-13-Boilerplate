@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
+import React from 'react';
 
 export default function LocaleSwitcher() {
   const t = useTranslations();
