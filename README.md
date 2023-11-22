@@ -139,6 +139,7 @@ The project is already configured with:
 - ContentLayer
 - TailwindCss
 - Twin.macro
+- Next-intl
 
 
 ### Main dependecies
@@ -149,6 +150,7 @@ The project is already configured with:
 - [contentlayer](https://contentlayer.dev/)
 - [tailwindcss](https://tailwindcss.com/)
 - [twin.macro](https://github.com/ben-rogerson/twin.macro)
+- [next-intl](https://next-intl-docs.vercel.app/)
 
 ### Main dev dependecies
 
