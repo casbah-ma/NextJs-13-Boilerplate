@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react';
 import type { Metadata } from 'next';
-import { useLocale } from 'next-intl';
+import { NextIntlClientProvider, useLocale, useMessages } from 'next-intl';
 import GlobalStyles from '@/styles/GlobalStyles';
 import '@/styles/global.css';
 import StyledComponentsRegistry from '../../lib/registry';
@@ -22,15 +22,20 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // current lang
   const locale = useLocale();
+  // get translation messages
+  const messages = useMessages();
 
   return (
     <html lang={locale}>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={`${openSans.variable}`}>
         <StyledComponentsRegistry>
-          <GlobalStyles />
-          {children}
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <GlobalStyles />
+            {children}
+          </NextIntlClientProvider>
         </StyledComponentsRegistry>
       </body>
     </html>
