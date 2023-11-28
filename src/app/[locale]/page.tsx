@@ -1,4 +1,5 @@
 // app/page.tsx
+"use client"
 import React from "react"
 import Link from 'next/link';
 import { compareDesc, format, parseISO } from 'date-fns';
